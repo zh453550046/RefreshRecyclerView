@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/ll"
+    android:gravity="center"
+    android:padding="30dp">
+
+    <!-- 进度条 -->
+
+    <ProgressBar
+        android:id="@+id/bottom_progressBar"
+        android:layout_width="24dip"
+        android:layout_height="24dip"
+        android:layout_marginRight="20dip"
+        android:indeterminateDrawable="@drawable/progressbar_small"
+        android:indeterminateDuration="2000" />
+
+    <TextView
+        android:id="@+id/tip_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/load_tip"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyRecyleView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="more_tip">没有更多了</string>
+    <string name="load_tip">正在加载</string>
+</resources>
